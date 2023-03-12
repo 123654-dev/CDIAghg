@@ -12,6 +12,7 @@ class Main : JavaPlugin() {
         saveDefaultConfig()
 
         logger.info("${description.name} version ${description.version} enabled!")
+        logger.info("Dummy change so it works")
     }
 
     override fun onDisable() {
