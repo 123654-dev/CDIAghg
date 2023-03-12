@@ -1,11 +1,11 @@
-package org.simplemc.plugintemplate
+package org.cdiadev.cdiaghg
 
 import org.bukkit.plugin.java.JavaPlugin
 
 /**
  * KotlinPluginTemplate plugin
  */
-class KotlinPluginTemplate : JavaPlugin() {
+class Main : JavaPlugin() {
 
     override fun onEnable() {
         // ensure config file exists

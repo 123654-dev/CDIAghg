@@ -22,7 +22,7 @@ plugins {
     id("org.jlleitschuh.gradle.ktlint") version "11.2.0"
 }
 
-group = "org.simplemc"
+group = "org.cdiadev"
 version = scmVersion.version
 
 val mcApiVersion: String by project
